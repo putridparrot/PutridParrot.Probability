@@ -29,7 +29,7 @@ jobs:
     - name: Create Package
       run: dotnet pack --configuration Release
     - name: Create Artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: PutridParrot.Probability
         path: /home/runner/work/PutridParrot.Probability/PutridParrot.Probability/PutridParrot.Probability/bin/Release/PutridParrot.Probability.*.nupkg
