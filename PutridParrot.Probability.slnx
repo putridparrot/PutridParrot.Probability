@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="PutridParrot.Probability\PutridParrot.Probability.csproj" />
+  <Project Path="Tests.PutridParrot.Probability\Tests.PutridParrot.Probability.csproj" />
+  <Properties Name="Configuration">
+    <Property Name="Debug|Any CPU" />
+    <Property Name="Release|Any CPU" />
+  </Properties>
+</Solution>
