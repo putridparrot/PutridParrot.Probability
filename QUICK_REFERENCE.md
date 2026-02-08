@@ -144,9 +144,3 @@ var pDiseaseGivenPositive = BayesTheorem.Calculate(
     pDisease, pPositiveGivenDisease, pPositive
 );
 ```
-
-## Error Handling
-All methods validate input and throw meaningful exceptions:
-- `ArgumentException` - Invalid parameters
-- `DivideByZeroException` - Division by zero
-- `OverflowException` - Result too large
